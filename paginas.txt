@@ -1,0 +1,11 @@
+https://www.sitepoint.com/android-video-calling-with-crosswalk-and-peerjs/
+https://github.com/sitepoint-editors/videokoler/tree/master/www
+http://peerjs.com/dash
+http://localhost:3000/peerjs
+https://github.com/crosswalk-project/cordova-plugin-crosswalk-webview
+https://crosswalk-project.org/documentation/tutorials/webrtc.html
+http://peerjs.com/
+https://crosswalk-project.org/documentation/android/system_setup.html#Java
+https://cordova.apache.org/#getstarted
+https://spring.io/guides/gs/android/
+https://ngrok.com/download
