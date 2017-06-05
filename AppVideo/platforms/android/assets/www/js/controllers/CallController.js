@@ -34,7 +34,7 @@
 
                 $ionicPopup.alert({
                     title: 'Incoming Call',
-                    template: 'Someone is calling you. Connecting now..'
+                    template: 'Llamada entrante. Conectando..'
                 });
 
                 getVideo(
@@ -44,7 +44,7 @@
                     function(err){
                         $ionicPopup.alert({
                             title: 'Error',
-                            template: 'An error occurred while try to connect to the device mic and camera'
+                            template: 'Ha ocurrido un error accendiendo a la cámara y micrófono del dispositivo'
                         });
                     }
                 );
@@ -58,8 +58,8 @@
                 video.src = window.URL.createObjectURL(stream);
                 video.onloadedmetadata = function(){
                     $ionicPopup.alert({
-                        title: 'Call Ongoing',
-                        template: 'Call has started. You can speak now'
+                        title: 'Llamada en curso',
+                        template: 'Lamada iniciada. Ahora puedes hablar'
                     });
                 };
 
@@ -77,7 +77,7 @@
                     function(err){
                         $ionicPopup.alert({
                             title: 'Error',
-                            template: 'An error occurred while try to connect to the device mic and camera'
+                            template: 'Ha ocurrido un error accendiendo a la cámara y micrófono del dispositivo'
                         });
                     }
                 );
